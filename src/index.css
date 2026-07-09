@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-50: #f4efff;
+  --color-brand-100: #eadeff;
+  --color-brand-500: #7d42fb;
+  --color-brand-600: #6627eb;
+  --color-brand-700: #5114d6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF9F6;
+  color: #1A1A1A;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Custom Artistic Flair Elements */
+.artistic-card {
+  background: #ffffff;
+  border: 2px solid #1A1A1A;
+  box-shadow: 6px 6px 0px 0px #1A1A1A;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.artistic-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0px 0px #7D42FB;
+}
+
+.artistic-btn-primary {
+  background: #1A1A1A;
+  color: #ffffff;
+  border: 2px solid #1A1A1A;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.2s ease;
+}
+
+.artistic-btn-primary:hover {
+  background: #7D42FB;
+  color: #ffffff;
+  border-color: #7D42FB;
+  box-shadow: 4px 4px 0px 0px #1A1A1A;
+  transform: translate(-2px, -2px);
+}
+
+.artistic-btn-secondary {
+  background: transparent;
+  color: #1A1A1A;
+  border: 2px solid #1A1A1A;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.2s ease;
+}
+
+.artistic-btn-secondary:hover {
+  background: #1A1A1A;
+  color: #ffffff;
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px 0px #7D42FB;
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Canva Templates Marketplace",
+  "description": "A highly animated, responsive, and premium landing page for browsing, customizing, and purchasing high-converting Canva templates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
